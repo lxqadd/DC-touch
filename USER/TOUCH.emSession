@@ -1,0 +1,98 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks>
+  <BookmarkItem column="-1" line="218" path="C:/Users/123/Desktop/dwlcd-luo/USER/main.c" number="9" extra="ShowMainPage();" name="unnamed" color="5" />
+  <BookmarkItem column="-1" line="491" path="C:/Users/123/Desktop/dwlcd-luo/USER/main.c" number="10" extra="ShowMainPage();" name="unnamed" color="5" />
+ </Bookmarks>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow addressText="" bufferWidth="-1" bufferHeight="-1" addressSpace="" />
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="" addressOrder="0" refreshPeriod="0" columnsText="" sizeText="" viewMode="0" dataSize="1" radix="16" name="Target 1" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" addressOrder="0" refreshPeriod="0" columnsText="" sizeText="" viewMode="0" dataSize="1" radix="16" name="Target 1" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" addressOrder="0" refreshPeriod="0" columnsText="" sizeText="" viewMode="0" dataSize="1" radix="16" name="Target 1" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" addressOrder="0" refreshPeriod="0" columnsText="" sizeText="" viewMode="0" dataSize="1" radix="16" name="Target 1" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="TOUCH" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1;CMSIS Files" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1;Source Files" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1;Source Files;CORE" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1;Source Files;FWLib" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1;Source Files;HARDWARE" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1;Source Files;USER" name="unnamed" />
+  <ProjectSessionItem path="TOUCH;Target 1;System Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="GPIOB;GPIOB/IDR;GPIOB/ODR;CPU;CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="GPIOB/CRL;GPIOB/CRH;GPIOB/IDR;GPIOB/ODR;GPIOB/BSRR;GPIOB/BRR;GPIOB/LCKR;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr" name="Target 1" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="Target 1" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="Target 1" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="Target 1" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Each Second" >
+   <Watchpoint evalMode="0" linenumber="4" numelements="0" radix="16" name="ascii_time" list="" expression="ascii_time" filename="1302.c" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="4" radix="-1" name="TmpNow" list="" expression="TmpNow" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="10" name="TempSetContralHigh" list="" expression="TempSetContralHigh" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="10" name="TempSetContralLow" list="" expression="TempSetContralLow" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="10" name="TempSetWaterHigh" list="" expression="TempSetWaterHigh" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="10" name="TempSetWaterLow" list="" expression="TempSetWaterLow" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="TempSetItemSelectIndex" list="" expression="TempSetItemSelectIndex" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="16" name="TimeSetItemSelectIndex" list="" expression="TimeSetItemSelectIndex" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="ShowItemIndex" list="" expression="ShowItemIndex" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="HandWaterPump" list="" expression="HandWaterPump" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="RunFlag" list="" expression="RunFlag" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="WringFlag" list="" expression="WringFlag" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="IDR" list="" expression="*(unsigned *)0x40010c08" filename="../USER" />
+   <Watchpoint evalMode="1" linenumber="0" numelements="0" radix="-1" name="rev" list="" expression="rev" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="WringShowNowNum" list="" expression="WringShowNowNum" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="9" radix="16" name="ID" list="" expression="ID" filename="../USER" />
+   <Watchpoint evalMode="0" linenumber="0" numelements="0" radix="-1" name="ds1302Data" list="" expression="ds1302Data" filename="../USER" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="4" radix="-1" name="TimeSetBegain" list="" expression="TimeSetBegain" filename="../USER" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="4" radix="-1" name="TimeSetEnd" list="" expression="TimeSetEnd" filename="../USER" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="10" debugPath="main.c" y="218" path="main.c" left="0" selected="1" name="unnamed" top="208" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="0" debugPath="adc.c" y="42" path="adc.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="0" debugPath="ntc.c" y="24" path="ntc.c" left="0" selected="0" name="unnamed" top="20" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="21" debugPath="Logic.c" y="220" path="Logic.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="0" debugPath="../SYSTEM/delay/delay.c" y="46" path="../SYSTEM/delay/delay.c" left="0" selected="0" name="unnamed" top="25" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="73" debugPath="dw.c" y="19" path="dw.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="13" debugPath="include.h" y="63" path="include.h" left="0" selected="0" name="unnamed" top="71" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="0" debugPath="../HARDWARE/KEY/key.c" y="8" path="../HARDWARE/KEY/key.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="0" debugPath="../HARDWARE/TIMER/timer.c" y="46" path="../HARDWARE/TIMER/timer.c" left="0" selected="0" name="unnamed" top="24" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="0" debugPath="usart1.c" y="122" path="usart1.c" left="0" selected="0" name="unnamed" top="99" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="0" debugPath="usart1.h" y="10" path="usart1.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="GB2312" x="4" debugPath="../STM32F10x_FWLib/src/stm32f10x_usart.c" y="590" path="../STM32F10x_FWLib/src/stm32f10x_usart.c" left="0" selected="0" name="unnamed" top="586" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="Target 1" autoConnectTarget="J-Link" debugSearchFileMap="" fileDialogInitialDirectory="F:/WorkSpace/keil project/dwlcd-JiaChunGuoLu/USER" fileDialogDefaultFilter="*.c" autoConnectCapabilities="1132" debugSearchPath="" buildConfiguration="Debug" />
+</session>

@@ -1,0 +1,118 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="TOUCH" target="8" version="2">
+  <project Name="Target 1">
+    <configuration
+      Connection="USB 123456"
+      Name="Common"
+      Placement="Flash"
+      Target="STM32F103C8"
+      arm_architecture="v7M"
+      arm_core_type="Cortex-M3"
+      arm_endian="Little"
+      arm_fpu_type="None"
+      arm_interwork="No"
+      arm_linker_heap_size="256"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="256"
+      arm_simulator_memory_simulation_parameter="ROM;0x08000000;0x00010000;RAM;0x20000000;0x00005000"
+      arm_target_debug_interface_type="ADIv5"
+      arm_target_device_name="STM32F103C8"
+      arm_target_interface_type="SWD"
+      c_preprocessor_definitions="STM32F10X_MD;USE_STDPERIPH_DRIVER"
+      c_user_include_directories="$(PackagesDir)/CMSIS_4/CMSIS/Include;../HARDWARE/LED;../SYSTEM/delay;../SYSTEM/sys;../SYSTEM/usart;../USER;../STM32F10x_FWLib/inc;../CORE;../HARDWARE/KEY;../HARDWARE/EXTI;../HARDWARE/WDG;../HARDWARE/TIMER;../HARDWARE/PWM;../HARDWARE/LCD;../HARDWARE/WKUP;../HARDWARE/ADC;../HARDWARE/TSensor;../HARDWARE/IIC;../HARDWARE/24CXX;../HARDWARE/SPI;../HARDWARE/FLASH;../HARDWARE/TOUCH"
+      debug_register_definition_file="$(PackagesDir)/STM32F1xx/XML/STM32F103xx_Registers.xml"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      linker_memory_map_file="$(PackagesDir)/STM32F1xx/XML/STM32F103C8_MemoryMap.xml"
+      linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml"
+      macros="DeviceHeaderFile=$(PackagesDir)/STM32F1xx/CMSIS/Device/Include/stm32f10x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/STM32F1xx/CMSIS/Device/Source/system_stm32f10x.c;DeviceVectorsFile=$(PackagesDir)/STM32F1xx/Source/STM32F103xx_Vectors.s;DeviceFamily=STM32F1xx;DeviceSubFamily=STM32F103"
+      package_dependencies="STM32F1xx"
+      project_directory=""
+      project_type="Executable"
+      property_groups_file_path="$(PackagesDir)/STM32F1xx/XML/property_groups.xml"
+      target_reset_script="Reset();"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <folder Name="Source Files">
+      <folder Name="USER">
+        <file file_name="./main.c" />
+        <file file_name="../SYSTEM/delay/delay.c" />
+        <file file_name="./system_stm32f10x.c" />
+        <file file_name="./adc.c" />
+        <file file_name="./ntc.c" />
+        <file file_name="./rtc.c" />
+        <file file_name="./Logic.c" />
+        <file file_name="wifi.c" />
+        <file file_name="1302.c" />
+      </folder>
+      <folder Name="HARDWARE">
+        <file file_name="../HARDWARE/KEY/key.c" />
+        <file file_name="../HARDWARE/TIMER/timer.c" />
+        <file file_name="./stmflash.c" />
+        <file file_name="./usart1.c" />
+      </folder>
+      <folder Name="CORE">
+        <file file_name="../CORE/startup_stm32f10x_md.s">
+          <configuration Name="Common" build_exclude_from_build="Yes" />
+        </file>
+      </folder>
+      <folder Name="FWLib">
+        <file file_name="../STM32F10x_FWLib/src/misc.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_gpio.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_rcc.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_spi.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_usart.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_adc.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_bkp.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_can.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_cec.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_crc.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_dac.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_dbgmcu.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_dma.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_exti.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_flash.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_fsmc.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_i2c.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_iwdg.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_pwr.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_rtc.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_sdio.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_tim.c" />
+        <file file_name="../STM32F10x_FWLib/src/stm32f10x_wwdg.c" />
+      </folder>
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+      <file file_name="dw.c" />
+    </folder>
+    <folder Name="CMSIS Files">
+      <file file_name="$(DeviceHeaderFile)" />
+    </folder>
+    <folder Name="RTT Files">
+      <file file_name="$(StudioDir)/samples/SEGGER_RTT.c" />
+      <file file_name="$(StudioDir)/samples/SEGGER_RTT.h" />
+      <file file_name="$(StudioDir)/samples/SEGGER_RTT_Conf.h" />
+      <file file_name="$(StudioDir)/samples/SEGGER_RTT_SES.c" />
+    </folder>
+    <folder Name="Script Files">
+      <file file_name="$(PackagesDir)/STM32F1xx/Scripts/STM32F1xx_Target.js">
+        <configuration Name="Common" file_type="Reset Script" />
+      </file>
+    </folder>
+    <folder Name="System Files">
+      <file file_name="$(StudioDir)/source/thumb_crt0.s" />
+      <file file_name="$(PackagesDir)/STM32F1xx/Source/STM32F1xx_Startup.s" />
+      <file file_name="$(DeviceVectorsFile)">
+        <configuration Name="Common" file_type="Assembly" />
+      </file>
+    </folder>
+  </project>
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_optimization_level="None" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 1"
+    gcc_optimization_level="Level 1" />
+</solution>

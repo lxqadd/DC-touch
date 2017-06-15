@@ -1,0 +1,32 @@
+main.c
+     包含 IO初始化 读取AD采集数据 wifi数据解析(服务器到控制器) ID好写入
+     主要运行函数
+adc.c
+    STM32内部的ADC设置
+ntc.c
+     PT100 的温度换算文件(将AD采集数据变为实际温度)
+Logic.c
+     程序的逻辑文件
+     主要实现电磁热水炉 的工作逻辑
+     MainRun()函数为主要控制函数
+wifi.c
+     对上传数据进行打包 上传
+dw.c
+     主要是控制显示界面的函数
+key.c
+     未调用
+timer.c
+     定时器3的初始化 中断函数
+stmflash.c
+     STM32的内部flash使用函数
+usart1.c
+     三个串口的（usart0,usart1,usart2）初始化,中断,发生数据
+touchscreen.c
+     触摸屏操作 数据解析
+     屏与控制板的通讯协议。(见电磁热水器.xlsx)
+
+注：
+     EPS8266为串口转WiFi功能的芯片  对EPS8266下载固件 是它成为一个透传模块
+     
+     
+
